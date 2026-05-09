@@ -1,0 +1,28 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ClaudioGab/back-end#readme",
+  "bugs": {
+    "url": "https://github.com/ClaudioGab/back-end/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudioGab/back-end.git"
+  },
+  "license": "ISC",
+  "author": "Dio",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node back-end/src/index.js",
+    "dev": "nodemon back-end/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14"
+  }
+}

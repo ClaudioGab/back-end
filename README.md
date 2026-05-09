@@ -1,2 +1,2 @@
 # back-end
-This is my back end learning repository 
+This is my backend learning repository 
